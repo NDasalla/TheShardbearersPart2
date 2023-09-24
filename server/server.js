@@ -1,5 +1,7 @@
 import express from "express";
 
+import "./config/dotenv.js";
+
 import shardbearersRouter from "./routes/shardbearers.js";
 
 const app = express();
