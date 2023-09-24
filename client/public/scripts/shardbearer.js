@@ -13,8 +13,8 @@ const renderShardbearer = async () => {
   if (shardbearer) {
     document.getElementById("image").src = shardbearer.image;
     document.getElementById("name").textContent = shardbearer.name;
-    document.getElementById("greatRune").textContent =
-      "Great Rune: " + shardbearer.greatRune;
+    document.getElementById("greatrune").textContent =
+      "Great Rune: " + shardbearer.greatrune;
     document.title = `Sharbearer - ${shardbearer.name}`;
   } else {
     const message = document.createElement("h2");

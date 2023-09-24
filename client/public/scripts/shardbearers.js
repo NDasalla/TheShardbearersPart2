@@ -21,9 +21,9 @@ const renderGifts = async () => {
       name.textContent = shardbearer.name;
       bottomContainer.appendChild(name);
 
-      const greatRune = document.createElement("p");
-      greatRune.textContent = "Great Rune: " + shardbearer.greatRune;
-      bottomContainer.appendChild(greatRune);
+      const greatrune = document.createElement("p");
+      greatrune.textContent = "Great Rune: " + shardbearer.greatrune;
+      bottomContainer.appendChild(greatrune);
 
       const link = document.createElement("a");
       link.textContent = "Read More >";
